@@ -64,6 +64,7 @@ def train_new_model(model, num_epoch, optimizer, train_loader, device, lr_schedu
         losses_mean.append(mean)
             
     plot_losses(distinct_losses_print, losses_mean, backbone)
+        
     return model
 
 def train_and_test(model, num_epoch, optimizer, train_loader, test_loader,device, lr_scheduler, backbone):
@@ -78,6 +79,7 @@ def train_and_test(model, num_epoch, optimizer, train_loader, test_loader,device
         losses_mean.append(mean)
         coco_evaluator = evaluate(model, test_loader, device)
         mAP.append(coco_evaluator.coco_eval['bbox'].stats[1])
+            
     plot_losses(distinct_losses_print, losses_mean, backbone)
     plot_precision(mAP, backbone)
 
