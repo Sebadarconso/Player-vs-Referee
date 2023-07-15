@@ -51,4 +51,4 @@ python3 main.py --mode inference --model <resnet50/mobilenet> --weigths <path/to
 ## YOLO 
 Please note that all tests conducted on YOLO were performed on a separate file that is a clone of the official YOLO repository. As a result, the testing code is not displayed in this repository but only in the report.
 The YOLO testing file includes the necessary implementation and dependencies specific to the YOLO algorithm. It is used to evaluate the performance and accuracy of the YOLO model on various datasets.
-To access the official YOLO repository, you can visit: [Official YOLO Repository](https://github.com/ultralytics/yolov5)
+To access the official YOLO repository, you can visit: [Official YOLO Repository](https://github.com/ultralytics/yolov5).
