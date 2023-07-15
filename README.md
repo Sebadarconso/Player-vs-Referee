@@ -26,7 +26,7 @@ The files omitted from this repo are:
 
 - The dataset folder (https://drive.google.com/drive/folders/1FxciZOKfM-U4LtT8a6jr0JKm_pFW-MjO?usp=sharing)
 - The detection folder: it's a clone of the pytorch repo (https://github.com/pytorch/vision/tree/main/references/detection)
-- The weights folder
+- The weights folder (https://drive.google.com/drive/folders/1NDDyGeZQseAb3_v2oOdzwT9ASxOUuUfx?usp=sharing)
 
 ## Example of usage
 The main.py file supports the following operations:
