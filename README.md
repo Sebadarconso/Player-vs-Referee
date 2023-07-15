@@ -7,6 +7,7 @@ Welcome to the repository! Here you will find an overview of the most important 
 2. [Important Files](#important-files)
 3. [Missing Files](#missing-files)
 4. [Example of usage](#example-of-usage)
+5. [YOLO](#YOLO)
 
 ## Introduction 
 The purpose of this repository is to provide an overview of the project and highlight the key files.
@@ -46,3 +47,9 @@ python3 main.py --mode validation --data <path/to/dataset> --model <resnet50/mob
 ```bash
 python3 main.py --mode inference --model <resnet50/mobilenet> --weigths <path/to/weights> --image <path/to/tes/image or folder>
 ```
+## YOLO
+## YOLO 
+Please note that all tests conducted on the YOLO (You Only Look Once) algorithm were performed on a separate file that is a clone of the official YOLO repository. As a result, the testing code is not displayed in this repository but only in the report.
+The YOLO testing file includes the necessary implementation and dependencies specific to the YOLO algorithm. It is used to evaluate the performance and accuracy of the YOLO model on various datasets.
+To access the official YOLO repository, you can visit: [Official YOLO Repository](https://github.com/ultralytics/yolov5)
+Please be aware that the YOLO testing code and its related files are not hosted within this repository.
