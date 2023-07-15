@@ -105,7 +105,7 @@ def parse_options():
     parser.add_argument('--model', choices=['resnet50', 'mobilenet'], default='resnet50', help='Select the model type: resnet50 or mobilenet')
     parser.add_argument('--weights', type=str, default='models/resnet50/model_20ep.pth', help='Path to load the model')
     parser.add_argument('--epochs', type=int, default='10', help='How many training epochs')
-    parser.add_argument('--image', type=str, default=None, help='Path to test image')
+    parser.add_argument('--image', type=str, default=None, help='Path to test image or folder')
 
     return parser.parse_args()
 
