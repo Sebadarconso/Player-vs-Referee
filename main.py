@@ -50,7 +50,7 @@ def test(opt):
     data_path = opt.data
 
     ## dataset and dataloader 
-    test_dataset = ds.Dataset(root=data_path, type=opt.mode, transforms=ds.get_transforms(True))
+    test_dataset = ds.Dataset(root=data_path, type=opt.mode, transforms=ds.get_transforms(False))
     test_loader = DataLoader(dataset=test_dataset, batch_size=1, shuffle=False, collate_fn=ds.collate_fn)
 
     ## model loading
